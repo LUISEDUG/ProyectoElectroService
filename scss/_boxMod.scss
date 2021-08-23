@@ -11,8 +11,17 @@
 						        justify-content: center;}
 
 .repuestos__formulario--flex{padding-top: 20px;
-				               	display:flex;
-						        justify-content: center;}
+				            display:flex;
+						    justify-content: center;
+						    @media only screen and (min-width: 768px) and (max-width: 1024px){
+	                    	           		        	            				          display:flex;
+						       															justify-content: center;
+	                    																}
+	              			@media screen and (max-width:767px) {display:flex;
+						       									justify-content: center;
+	              												}
+				            }
+						    
 
 .formulario--flex{padding-top: 20px;
                	 display:flex;
@@ -34,11 +43,26 @@
 .contactanos__mapa--flex{margin-top: 20px;
 		               	 display:flex;
 				         justify-content: center;
-		                }
+		                @media only screen and (min-width: 768px) and (max-width: 1024px){
+	                    	           		                    				          display:flex;
+						       															justify-content: center;
+	                    																}
+	              		@media screen and (max-width:767px) {display:flex;
+						       								justify-content: center;
+	              											}
+				        }
+
 
 .contactanos__formulario--flex{margin-top: 20px;
 				               display:flex;
 						       justify-content: center;
+						       @media only screen and (min-width: 768px) and (max-width: 1024px){
+	                    	           		                       				                 display:flex;
+						       															justify-content: center;
+	                    																		}
+	              			   @media screen and (max-width:767px) {display:flex;
+						       										justify-content: center;
+	              												   }
 				              }
 
 .section2__titulo--flex{
@@ -51,7 +75,9 @@
                   margin-bottom: 20px;
 		         }
 
-.mision--flex{ margin-top: 20px;
+
+
+.mision--flex{   margin-top: 20px;
                	 display:flex;
 		         justify-content: center;
 		         margin-bottom: 20px;

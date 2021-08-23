@@ -11,6 +11,7 @@ $parrafoMobile:1rem;
 $tituloMobile:1.3rem;
 $textoInferior:1.2rem;
 $textoInferiorMobile:.6rem;
+$titulotablet:1.3rem;
 
 
 
@@ -42,7 +43,11 @@ $textoInferiorMobile:.6rem;
 	           		    @media screen and (max-width:767px) { margin-left: 40px;
 	           		                                          width:  300px;
 	            									 		  height: 150px;}
-	          }
+	                    @media only screen and (min-width: 768px) and (max-width: 1024px){
+	                    	           		                                               width:  170px;
+	            									 		  							   height: 150px;
+	                    																  }
+	         		   }
 
 .footer__textoderecha--size{ font-size:$textoInferior;
                              @media screen and (max-width:767px) {font-size:$textoInferiorMobile} }
@@ -86,7 +91,9 @@ $textoInferiorMobile:.6rem;
 
 .valores__texto--size{ font-size:$titulo;
 					   font-family: 'Courgette', cursive;
-                        @media screen and (max-width:767px) {font-size:$tituloMobile} }
+                       @media screen and (max-width:767px) {font-size:$tituloMobile}
+	                   @media only screen and (min-width: 768px) and (max-width: 1024px){font-size:$titulotablet}
+                      }
 
 .valores__parrafo--size{ font-size:$parrafo;
 	                    font-family: 'Courgette', cursive;
@@ -109,6 +116,13 @@ $textoInferiorMobile:.6rem;
 					  height: 500px;
 					}
 
-.repuestos--size{ width:  300px;
-				  height: 300px;
+.repuestos--size{ width:  250px;
+				  height: 250px;
+				  @media only screen and (min-width: 768px) and (max-width: 1024px){
+	                    	           		                                        width:  150px;
+	            									 		  						height: 150px;
+	                    															}
+	              @media screen and (max-width:767px) {width:  100px;
+	              									   height: 100px;
+	              										}
 					} 
