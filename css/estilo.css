@@ -63,12 +63,12 @@
       height: 20px; } }
 
 .header__logosRedes--size {
-  width: 2.3rem;
-  height: 2.3rem; }
+  width: 2.4rem;
+  height: 2.4rem; }
   @media screen and (max-width: 767px) {
     .header__logosRedes--size {
       width: 30px;
-      height: 20px; } }
+      height: 30px; } }
 
 .logoPrincipal {
   width: 330px;
@@ -80,7 +80,8 @@
 
 .valores__imagen--size {
   margin-top: 20px;
-  width: 90px;
+  margin-left: 60px;
+  width: 240px;
   height: 180px;
   border-radius: 50%; }
   @media screen and (max-width: 767px) {
@@ -207,8 +208,20 @@
   padding: 0;
   overflow: hidden; }
 
+.quienessomos__formulario--flex {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; }
+
+.repuestos__formulario--flex {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; }
+
 .formulario--flex {
-  padding-top: 20px; }
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; }
 
 .footer--flex {
   margin-top: 20px;

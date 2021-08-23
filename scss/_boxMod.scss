@@ -6,7 +6,17 @@
                 }
 
 
-.formulario--flex{padding-top: 20px;}
+.quienessomos__formulario--flex{padding-top: 20px;
+				               	display:flex;
+						        justify-content: center;}
+
+.repuestos__formulario--flex{padding-top: 20px;
+				               	display:flex;
+						        justify-content: center;}
+
+.formulario--flex{padding-top: 20px;
+               	 display:flex;
+		         justify-content: center;}
             
 .footer--flex{
 		margin-top: 20px;     	
