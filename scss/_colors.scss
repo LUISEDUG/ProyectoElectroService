@@ -1,0 +1,50 @@
+$azul:midnightblue;
+$azul1:navy;
+$azul2:dodgerblue;
+$verde1:limegreen;
+$blanco:NavajoWhite;
+
+
+.footer__fondo--color{background-image: linear-gradient(to right, skyblue, lightblue);}
+
+.footer__textoIzquierda--color{color:darkblue;}
+
+.footer__textoderecha--color {color:darkblue;}
+
+.section3__titulo--color{color:$azul}
+
+.section2__titulo--color{color:$azul}
+
+.mision__titulo--color{color:$azul2}
+
+.vision__titulo--color{color:$azul2}
+
+.valores__titulo--color{color:$azul2}
+
+.contacto__titulo--color{color:$azul2}
+
+.carousel__titulo--color{color:$blanco}
+
+.valores__texto--color{color:$azul}
+
+.section1__titulo--color{color:$azul}
+
+.tituloPrincipal--color{color:$azul1}
+
+.footer__logosRedes--color{ 	transition:3s;
+							&:hover{
+									background-color:$azul1;
+									}
+						  }
+
+.header__logosRedes--color{ 	transition:3s;
+								&:hover{
+										background-color:$verde1;
+									   }
+						  }
+
+
+
+
+
+									   

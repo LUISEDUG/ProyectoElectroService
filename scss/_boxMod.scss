@@ -1,0 +1,144 @@
+
+.container-fluid{
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+                }
+
+
+.formulario--flex{padding-top: 20px;}
+            
+.footer--flex{
+		margin-top: 20px;     	
+		padding-top: 5px;
+		display: flex;
+		justify-content: space-around;
+	   }
+
+.section2--flex{ margin-top: 20px;
+               	 display:flex;
+		         justify-content: center;
+		         margin-bottom: 20px;
+		         }
+
+.contactanos__mapa--flex{margin-top: 20px;
+		               	 display:flex;
+				         justify-content: center;
+		                }
+
+.contactanos__formulario--flex{margin-top: 20px;
+				               display:flex;
+						       justify-content: center;
+				              }
+
+.section2__titulo--flex{
+		       display:flex;
+		       justify-content: center;
+	               }
+
+
+.repuestos--flex{ margin-top: 20px;
+                  margin-bottom: 20px;
+		         }
+
+.mision--flex{ margin-top: 20px;
+               	 display:flex;
+		         justify-content: center;
+		         margin-bottom: 20px;
+		         }
+
+
+
+.mision__titulo--flex{ display:flex;
+				       justify-content: center;
+			               }
+
+.mapa--flex{margin-top: 20px;
+			display:flex;
+		    justify-content: center;
+	        }
+
+.vision--flex{ margin-top: 20px;
+               	 display:flex;
+		         justify-content: center;
+		         margin-bottom: 20px;
+
+		         }
+
+.vision__titulo--flex{
+		       display:flex;
+		       justify-content: center;
+	               }
+
+
+.valores--flex{ margin-top: 20px;
+               	 display:flex;
+		         justify-content: center;
+		         margin-bottom: 20px;
+		         }
+
+.valores__titulo--flex{
+				       display:flex;
+				       justify-content: center;
+	                  }
+
+.valores__imagen--flex{
+				       display:flex;
+				       justify-content: center;
+	                  }
+
+.valores__texto--flex{
+		               margin-top: 20px;
+				       display:flex;
+				       justify-content: center;
+	               }
+
+.contacto__titulo--flex{
+		       display:flex;
+		       justify-content: center;
+	               }
+
+.section3__titulo--flex{
+		       display:flex;
+		       justify-content: center;
+	               }
+	
+
+
+.section1--flex{ margin-top: 20px;
+               	 display:flex;
+		         justify-content: center;}
+
+.tituloPrincipal--flex{ margin-top: 20px;
+               	 		display:flex;
+		         		justify-content: center;
+ 					  }
+                      
+.section1__titulo--flex{
+		       display:flex;
+		       justify-content: center;
+	               } 		
+
+.formulario__boton--flex {transform: translate(180px);}
+
+.footer__textoderecha--flex{
+		                    display:flex;
+		       				justify-content: center;
+	              		   } 		
+
+.footer__textoIzquierda--flex{
+		       				  display:flex;
+		       				  justify-content: center;
+	         		         }
+
+.footer__logos--flex{
+		       		 display:flex;
+		       		 justify-content: space-around;
+		       		 @media screen and (max-width:767px) {display:flex;
+		                                            	  justify-content: center;}
+	                } 
+
+.section3__video--flex{
+		       			display:flex;
+		       			justify-content: center;
+	             	  }

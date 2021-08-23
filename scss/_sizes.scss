@@ -1,0 +1,113 @@
+.html{ font-size:17px; }
+
+@font-face	{
+	font-family: 'Courgette';
+	src: url(../assets/font/Courgette-Regular.ttf);
+}
+
+$titulo:2.2rem;
+$parrafo:1.7rem;
+$parrafoMobile:1rem;
+$tituloMobile:1.3rem;
+$textoInferior:1.2rem;
+$textoInferiorMobile:.6rem;
+
+
+
+.footer__logosRedes--size{ width: 2.3rem;
+						   height: 2.3rem;
+	                       @media screen and (max-width:767px) {width:  30px;
+	            		            							height: 20px;}
+						 }
+						 
+.header__logosRedes--size{ width: 2.3rem;
+						   height: 2.3rem;
+	                       @media screen and (max-width:767px) {width:  30px;
+	            		            							height: 20px;}
+						 }
+
+.logoPrincipal{ width:  330px;
+	            height: 110px;
+	            @media screen and (max-width:767px) {width:  250px;
+	            									 height: 80px;}
+	          }
+
+
+
+.valores__imagen--size{ margin-top: 20px; 
+                        width:  90px;
+	           		    height: 180px;
+	           		    border-radius: 50%;
+	           		    @media screen and (max-width:767px) { margin-left: 40px;
+	           		                                          width:  300px;
+	            									 		  height: 150px;}
+	          }
+
+.footer__textoderecha--size{ font-size:$textoInferior;
+                             @media screen and (max-width:767px) {font-size:$textoInferiorMobile} }
+
+.footer__textoizquierda--size{ font-size:$textoInferior;
+                               @media screen and (max-width:767px) {font-size:$textoInferiorMobile} }
+
+.tituloPrincipal--size{  font-size:$titulo;
+                         @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.section1__titulo--size{ font-size:$titulo;
+                         @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.section3__titulo--size{ font-size:$titulo;
+                         @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.section2__titulo--size{ font-size:$titulo;
+                         @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.mision__titulo--size{ font-family: 'Courgette', cursive;
+					   font-size:$titulo;
+					   @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.mision__parrafo--size{ font-size:$parrafo;
+	                    font-family: 'Courgette', cursive;
+                        @media screen and (max-width:767px) {font-size:$parrafoMobile}
+                      }
+
+.vision__titulo--size{ font-family: 'Courgette', cursive;
+					   font-size:$titulo;
+                       @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.vision__parrafo--size{ font-size:$parrafo;
+	                    font-family: 'Courgette', cursive;
+                        @media screen and (max-width:767px) {font-size:$parrafoMobile}
+                      }
+
+.valores__titulo--size{ font-size:$titulo;
+ 						font-family: 'Courgette', cursive;
+                        @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.valores__texto--size{ font-size:$titulo;
+					   font-family: 'Courgette', cursive;
+                        @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.valores__parrafo--size{ font-size:$parrafo;
+	                    font-family: 'Courgette', cursive;
+                        @media screen and (max-width:767px) {font-size:$parrafoMobile}
+                       }
+
+.contacto__titulo--size{ font-family: 'Courgette', cursive;
+					   font-size:$titulo;
+                       @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.carousel__titulo--size{ font-family: 'Courgette', cursive;
+					   font-size:$titulo;
+                       @media screen and (max-width:767px) {font-size:$tituloMobile} }
+
+.section1__parrafo--size{ font-size:$parrafo;
+	                      @media screen and (max-width:767px) {font-size:$parrafoMobile}
+                       }
+
+.section2__img--flex{ width: 100px;
+					  height: 500px;
+					}
+
+.repuestos--size{ width:  300px;
+				  height: 300px;
+					} 
